@@ -50,17 +50,18 @@
 .second{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .second-inside{
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: flex-start;
     font-family: 'Orbitron' ;
 }
 .second-inside ul{
     display: flex;
-    width: 38%;
+    width: 35%;
+    padding: 0%;
     justify-content: space-evenly;
 }
 

@@ -3,17 +3,20 @@
     max-width: 1440px;
     margin: auto 120px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: baseline;
+    
 }
 .article-inside{
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    display: flex;
-    align-items: center;
 }
 .article-inside p{
     font-family: 'Orbitron';
-    font-weight: 800 Extra bold;
+    font-weight: 800;
     line-height: 163px;
     font-size: 130px;
     margin: 0px;
