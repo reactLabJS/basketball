@@ -1,0 +1,56 @@
+.article{
+    display: flex;
+    max-width: 1440px;
+    margin: auto 120px;
+    flex-direction: column;
+    justify-content: center;
+}
+.article-inside{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+.article-inside p{
+    font-family: 'Orbitron';
+    font-weight: 800 Extra bold;
+    line-height: 163px;
+    font-size: 130px;
+    margin: 0px;
+}
+.small-tittle{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.empty{
+    display: flex;
+    width: 50%;
+}
+.tittle{
+    display: flex;
+    text-transform: uppercase;
+    width: 50%;
+    justify-content: flex-end;
+}
+.tittle-inside{
+    display: flex;
+    width: 90%;
+    text-align: justify;
+    font-weight: 500;;
+    font-size: 21px;
+    font-family: 'Orbitron';
+    border-bottom: 3px solid black;
+}
+
+.nba{
+    color:#0949EF;
+}
+.team{
+    color: #FB0223;
+}
+.picture{
+    margin-top: 24px;
+    display: flex;
+    margin-bottom: 90px;
+}
