@@ -1,12 +1,14 @@
 import React from 'react'
 import { Article } from './Article/Article'
 import { Tittle } from './Main/Tittle'
-import { KobyProducts, lakerProducts } from '../Objects/products'
+import { KobyProducts, lakerProducts, MichaelProducts } from '../Objects/products'
 import logoTeam from '../Icons/Group 2.png'
 import { WhiteBlock } from './white-two/WhiteBlock'
 import { players } from '../Objects/players'
 import ChangeColor from './Main/ChangeColor'
 import { BlackBlock2 } from './Block3/BlackBlock2'
+import { BlockFour } from './Block4/BlockFour'
+// import { BlackBlockThree } from './BlockFive/BlackBlockThree'
 
 
 export const Home = () => {
@@ -50,6 +52,54 @@ export const Home = () => {
         titleThree="Collection"
         subTitle="Kobe bryant: a basketball legend. bryant crafted a storied career In his 20 seasons with the lakers. the lagacy of kobe bryant was a far-reaching one."
         products={KobyProducts}
+         />
+         <BlockFour
+         one="Hall of fame"
+         two="BAsketball"
+         twoColor="#FB0223"
+         three="Hall of fame"
+         four="The naismith memorial basketball hall of fame is home to more than Four nundred iductees and more than 40 000 square feet of basketball history."
+         five= {
+          <ChangeColor 
+          firstText="Michael"
+          firstColor="#fc0323"
+          secondText="Jordan"
+          secondColor="#000000"
+          />
+         }
+         six={
+          <ChangeColor 
+          firstText="David"
+          firstColor="#c5c5c5"
+          secondText="Robinson"
+          secondColor="#000000"
+          />
+
+         }
+         seven={
+          <ChangeColor 
+          firstText="John"
+          firstColor="#0a4e10"
+          secondText="stockton"
+          secondColor="#000000"
+          />
+         }
+         />
+         <br />
+         <BlackBlock2
+         titleOne="Jerseys 1992 team usa"
+         colorTitleOne="white"
+         titleTwo={
+           <ChangeColor 
+           firstText="1992"
+           firstColor="#0a49ef"
+           secondText="team usa"
+           secondColor="#fb0323"
+           />
+         } 
+         titleThree="Authentic edition"
+         subTitle="Jerseys of the united sates man’s olympics basketball team, which represented the us of a in the 1992 summer olympics in barcelona."
+         products={MichaelProducts}
          />
         
     </div>
