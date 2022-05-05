@@ -20,3 +20,24 @@ export const lakerProducts = [
         price: 290,
     },
 ]
+
+export const KobyProducts = [
+    {
+        img:lakers,
+        name: 'Kobe Bryant Laker Authentic Edition ',
+        desc: 'Nike NBA Authentic Jersey Purple',
+        price: 240,
+    },
+    {
+        img:lakers,
+        name: 'Kobe Bryant Laker Authentic Edition ',
+        desc: 'Nike NBA Authentic Jersey Purple',
+        price: 370,
+    },
+    {
+        img:lakers,
+        name: 'Kobe Bryant Laker Authentic Edition ',
+        desc: 'Nike NBA Authentic Jersey Purple',
+        price: 179,
+    },
+]
