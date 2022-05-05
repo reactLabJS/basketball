@@ -1,21 +1,19 @@
 import './App.css';
-import { Article } from './components/Article/Article';
+// import { Article } from './components/Article/Article';
 import { Header } from './components/Header/Header';
-import { Tittle } from './components/Main/Tittle';
-
+// import { Tittle } from './components/Main/Tittle';
+import { Routes, Route } from "react-router-dom";
+import { Home } from './components/Home';
+import { About } from './components/About';
 
 function App() {
   return (
     <div className="App">
     <Header/>
-    <Article/>
-    <Tittle 
-            titleOne="Jerseys bestsellers"
-            titleTwo="bestsellers" 
-            titleThree="Collection"
-            subTitle="The jerseys of the best nba players of the regular seasons."
-
-            />
+       <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+      </Routes>
     
     </div>
   );
