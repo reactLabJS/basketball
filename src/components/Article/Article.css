@@ -29,23 +29,32 @@
 .empty{
     display: flex;
     width: 50%;
+    justify-content: center;
 }
 .tittle{
     display: flex;
     text-transform: uppercase;
     width: 50%;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .tittle-inside{
     display: flex;
-    width: 90%;
+    width: 100%;
+    justify-content: flex-end;
     text-align: justify;
     font-weight: 500;;
     font-size: 21px;
     font-family: 'Orbitron';
     border-bottom: 3px solid black;
 }
-
+.tittle-inside_block{
+    display: flex;
+    width:1%;
+}
+.tittle-inside_block p span{
+    display: flex;
+    width: 50%;
+}
 .nba{
     color:#0949EF;
 }

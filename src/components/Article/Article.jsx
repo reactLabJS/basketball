@@ -22,9 +22,11 @@ export const Article = () => {
             </div>
             <div className="tittle">
                 <div className="tittle-inside">
-                <p> 
-                    whichever  <span className='nba'>nba</span> <span className='team'>team</span> your support, get your jersey here today.
-                </p>
+                    <div className="title-inside_block">
+                        <p> 
+                            whichever  <span className='nba'>nba</span> <span className='team'>team</span> your support, get your jersey here today.
+                        </p>
+                    </div>
                 </div>
 
             </div>
