@@ -1,6 +1,7 @@
 import React from 'react'
 import './BlockFour.css'
 
+import slider from '../../Icons/Slider.png'
 export const BlockFour = ({
   one,
   oneColor,
@@ -43,11 +44,34 @@ export const BlockFour = ({
         </div>
         <div className="years">
           <h2 style ={{color:fiveColor}}>
-            {years}
+            <span>
+              2005
+            </span>
+            <span>
+              2006
+            </span>
+            <span>
+              2007
+            </span>
+            <span>
+              2008
+            </span>
+            <span className='nine'>
+              2009
+            </span>
+            <span>
+              2010
+            </span>
+            <span>
+              2011
+            </span>
+            <span>
+              2012
+            </span>
           </h2>
         </div>
       <div className="years-line">
-
+        <img src={slider} alt="" />
       </div>
       <div className="five">
         <h2 style ={{color:fiveColor}}>

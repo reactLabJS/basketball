@@ -61,7 +61,27 @@
     display: flex;
     width: 60%;
     text-align: justify;
+    margin: 20px 0px 20px 0px;
     font-size: 12px;
     font-family: 'Orbitron';
     font-weight: 600;
+}
+.years-line{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.years-line img{
+    padding: 40px 0px 20px 0px;
+}
+.years h2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 30px;
+}
+.nine{
+    color: #fb1531;
 }
