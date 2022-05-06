@@ -14,9 +14,21 @@
     margin: auto 120px;
     flex-direction: column;
 }
+.shop h1{
+    display: flex;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    text-align: justify;
+
+}
 .shop{
     display: flex;
     width: 100%;
+    color: black;
     flex-direction: column;
     justify-content: flex-start;
     border-bottom: 2px solid black;
