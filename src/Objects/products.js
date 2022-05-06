@@ -1,5 +1,5 @@
 import lakers from '../Icons/Lakers-24.png'
-import shmakers from '../Icons/Lakers-24.png'
+
 export const lakerProducts = [
     {
         img:lakers,
@@ -41,23 +41,24 @@ export const KobyProducts = [
         price: 179,
     },
 ]
+
 export const MichaelProducts = [
     {
         img:lakers,
-        name: 'Michael Jordan 92 Olympics USA',
-        desc: 'Nike NBA 92 Olysics Authentic Jersey',
-        price: 532,
+        name: 'Michael Jordan ‘92 Olympics USA',
+        desc: 'Nike NBA ‘92 Olympics Dream Team USA Classics Authentic Jersey',
+        price: 240,
     },
     {
         img:lakers,
-        name: 'Michael Jordan 92 Olympics USA',
-        desc: 'Nike NBA 92 Olysics Authentic Jersey',
-        price: 632,
+        name: 'Michael Jordan ‘92 Olympics USA ',
+        desc: 'Nike NBA ‘92 Olympics Dream Team USA Classics Authentic Jersey',
+        price: 370,
     },
     {
         img:lakers,
-        name: 'Kobe Bryant Laker Authentic Edition',
-        desc: 'Nike NBA Authentic Jersey Purple',
-        price: 115,
+        name: 'Michael Jordan ‘92 Olympics USA ',
+        desc: 'Nike NBA ‘92 Olympics Dream Team USA Classics Authentic Jersey',
+        price: 179,
     },
 ]

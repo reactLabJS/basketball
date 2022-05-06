@@ -8,6 +8,8 @@ import { players } from '../Objects/players'
 import ChangeColor from './Main/ChangeColor'
 import { BlackBlock2 } from './Block3/BlackBlock2'
 import { BlockFour } from './Block4/BlockFour'
+import { BlackBlockThree } from './BlockFive/BlackBlockThree'
+import { Last } from './Last/Last'
 // import { BlackBlockThree } from './BlockFive/BlackBlockThree'
 
 
@@ -85,23 +87,23 @@ export const Home = () => {
           />
          }
          />
-         <br />
-         <BlackBlock2
-         titleOne="Jerseys 1992 team usa"
-         colorTitleOne="white"
-         titleTwo={
-           <ChangeColor 
-           firstText="1992"
-           firstColor="#0a49ef"
-           secondText="team usa"
-           secondColor="#fb0323"
-           />
-         } 
-         titleThree="Authentic edition"
-         subTitle="Jerseys of the united sates man’s olympics basketball team, which represented the us of a in the 1992 summer olympics in barcelona."
-         products={MichaelProducts}
+         <BlackBlockThree
+        titleOne="Jerseys 1992 team usa"
+        colorTitleOne="white"
+        titleTwo={
+          <ChangeColor 
+          firstText="1992"
+          firstColor="#0a49ef"
+          secondText="team usa"
+          secondColor="#fc0323"
+          />
+        } 
+        colorTitleTwo="#FB0223"
+        titleThree="Authentic edition"
+        subTitle="Jerseys of the united sates man’s olympics basketball team, which represented the us of a in the 1992 summer olympics in barcelona."
+        products={MichaelProducts}
          />
-        
+         <Last/>
     </div>
   )
 }

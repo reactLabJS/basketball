@@ -1,7 +1,7 @@
 import React from 'react'
-import './BlackBlockThree.css'
+import './Last.css'
 
-export const BlackBlockThree = ({
+export const Last = ({
     titleOne,
     titleTwo,
     titleThree,
