@@ -1,5 +1,5 @@
 import React from 'react'
-import { ShowAll } from '../ShowAll/ShowAll'
+
 import './BlackBlockThree.css'
 
 export const BlackBlockThree = ({

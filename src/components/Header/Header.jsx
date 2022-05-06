@@ -3,12 +3,13 @@ import searching from '../../Icons/Vector (1).png'
 import like from '../../Icons/Vector (2).png'
 import cart from '../../Icons/Vector.png'
 import nikelogo from '../../Icons/Logo.png'
+import { Link } from 'react-router-dom'
 export const Header = () => {
     return(
         <div className="header">
             <div className="header-block">
                 <div className="nike-logo">
-                    <img src= {nikelogo} width={80} alt="" />
+                    <Link to="/"><img src= {nikelogo} width={80} alt="" /></Link>
                 </div>
                 <div className="nav">
                     <div className="navmenu">
@@ -38,6 +39,14 @@ export const Header = () => {
                         </a>
                     </li>
                     </div>
+                </div>
+                <div className="links">
+                    <Link to="/about" className='aboutClass'>
+                            About
+                    </Link>
+                    <Link to="/signup" className='signupClass'>
+                        Sign Up   
+                    </Link>
                 </div>
                 <div className="icons">
                     <div className="icons-inside">
