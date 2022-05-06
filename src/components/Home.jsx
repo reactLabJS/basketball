@@ -1,7 +1,7 @@
 import React from 'react'
 import { Article } from './Article/Article'
 import { Tittle } from './Main/Tittle'
-import { KobyProducts, lakerProducts, MichaelProducts } from '../Objects/products'
+import { bigPicture, KobyProducts, lakerProducts, MichaelProducts } from '../Objects/products'
 import logoTeam from '../Icons/Group 2.png'
 import { WhiteBlock } from './white-two/WhiteBlock'
 import { players } from '../Objects/players'
@@ -10,9 +10,6 @@ import { BlackBlock2 } from './Block3/BlackBlock2'
 import { BlockFour } from './Block4/BlockFour'
 import { BlackBlockThree } from './BlockFive/BlackBlockThree'
 import { Last } from './Last/Last'
-// import { BlackBlockThree } from './BlockFive/BlackBlockThree'
-
-
 export const Home = () => {
   return (
     <div>
@@ -103,7 +100,16 @@ export const Home = () => {
         subTitle="Jerseys of the united sates man’s olympics basketball team, which represented the us of a in the 1992 summer olympics in barcelona."
         products={MichaelProducts}
          />
-         <Last/>
+         <Last 
+         titleOne="Jerseys 1992 team usa"
+         colorTitleOne="black"
+         titleTwo= "the nike"
+         colorTitleTwo="#77d131"
+         titleThree="app"
+         subTitle="Here you can find many interesting and useful from nike. Download the application from nike."
+         products={bigPicture}
+         />
+        
     </div>
   )
 }

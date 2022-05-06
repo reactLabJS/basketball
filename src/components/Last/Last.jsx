@@ -12,33 +12,33 @@ export const Last = ({
     logo,
 }) => {
   return (
-    <div className='title'>
-        <div className="title_inside">
-        <div className="tittleOne">
+    <div className='titleW'>
+        <div className="title_insideW">
+        <div className="tittleOneW">
             <h1 style ={{color:colorTitleOne}}>
                 {titleOne}
             </h1>
         </div>
-        <div className="tittleTwo">
+        <div className="tittleTwoW">
             <h2 style ={{color:colorTitleTwo}}>
                 {titleTwo}
             </h2>
         </div>
-        <div className="tittleThree">
+        <div className="tittleThreeW">
             <h2>
                 {titleThree}
             </h2>
         </div>
-        <div className="tittleFour">
+        <div className="tittleFourW">
             <h2>
                 {subTitle}
             </h2>
         </div>
-        <div className='products'>
+        <div className='product'>
         {products.map(item => {
             return(
         <div className="grid-blocks">
-            <div className="grid">
+            <div className="grid2">
                 <div>
                     <img src={item.img} alt="" />
                 </div>
@@ -52,18 +52,13 @@ export const Last = ({
                         {item.desc}
                     </h3>
                 </div>
-                <div>
-                    <h4>
-                        $ {item.price}
-                    </h4>
-                </div>
             </div>
         </div>
 
             )
         })}
         </div>
-        <div className="view">
+        <div className="viewW">
             <p>
                 View All
                 <svg width="61" height="9" viewBox="0 0 61 9" fill="none" xmlns="http://www.w3.org/2000/svg">

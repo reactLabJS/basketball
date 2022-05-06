@@ -1,5 +1,5 @@
 import lakers from '../Icons/Lakers-24.png'
-
+import big from '../Icons/unsplash_47KbIvcklh8.png'
 export const lakerProducts = [
     {
         img:lakers,
@@ -61,4 +61,14 @@ export const MichaelProducts = [
         desc: 'Nike NBA ‘92 Olympics Dream Team USA Classics Authentic Jersey',
         price: 179,
     },
+]
+
+export const bigPicture = [
+    {
+        img:big,
+        name: 'Nike Traning Club',
+        desc: 'Home workouts & fitness plans',
+        
+    },
+   
 ]
