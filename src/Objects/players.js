@@ -91,4 +91,13 @@ export const players = [
     {
         img: avatar
     },
+    {
+        img: avatar
+    },
+    {
+        img: avatar
+    },
+    {
+        img: avatar
+    },
 ]
