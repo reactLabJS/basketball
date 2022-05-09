@@ -7,6 +7,7 @@ import { Home } from './components/Home';
 import { About } from './components/Pages/About';
 import { SignUp } from './components/Pages/SignUp';
 
+
 function App() {
   return (
     <div className="App">

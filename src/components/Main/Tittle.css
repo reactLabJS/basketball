@@ -23,6 +23,54 @@
     text-transform: uppercase;
     border-bottom: 3px solid white;
 }
+.tittleOne{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.search-input{
+    outline:none;
+    border: none;
+    line-height: 40px;
+    width: 0px;
+    font-size: 1em;
+    float: left;
+    transition: 0.7s ease;
+    /* background-color: white; */
+    color: white
+    
+}
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: red;
+    padding: 5px;
+    border-radius: 50%;
+    float: right;
+    transition: 0.4s ease;
+}
+.search-btn img{
+    color: red;
+}
+.search-box:hover > .search-input,
+.search-input:focus{
+    width: 200px;
+    margin: 0px 8px;
+}
+.search-box:hover > .search-btn,
+.search-input:focus + .search-btn{
+    background-color: white;
+    color: rebeccapurple;
+}
 .tittleOne h1{
     font-weight: 600;
     font-size: 16px;

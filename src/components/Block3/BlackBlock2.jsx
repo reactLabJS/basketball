@@ -1,5 +1,6 @@
 import React from 'react'
 import './BlackBlock2.css'
+import search from '../../Icons/Vector (1).png'
 
 export const BlackBlock2 = ({
     titleOne,
@@ -18,6 +19,12 @@ export const BlackBlock2 = ({
             <h1 style ={{color:colorTitleOne}}>
                 {titleOne}
             </h1>
+            <div className="search-box">
+                <input type="text" placeholder='Search Here...' className='search-input' />
+                <a href="/" className='search-btn'>
+                    <img src={search} alt="" />
+                </a>
+            </div>
         </div>
         <div className="tittleTwo">
             <h2 style ={{color:colorTitleTwo}}>
