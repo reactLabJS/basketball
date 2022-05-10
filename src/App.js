@@ -9,11 +9,12 @@ import { SignUp } from './components/Pages/SignUp';
 
 
 function App() {
+  // const [search, setSearch] = useState('');
   return (
     <div className="App">
     <Header/>
        <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
         <Route path="/signup" element={<SignUp/>} />
       </Routes>

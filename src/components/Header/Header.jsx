@@ -48,14 +48,19 @@ export const Header = () => {
                         Sign Up   
                     </Link>
                 </div>
-                <div className="icons">
+               
+                <div className="search-box">
+                <input type="text" placeholder='Search Here...' className='search-input' />
+                <a href="/" className='search-btn'>
+                    <img src={searching} alt="" />
+                </a>
+            </div>
                     <div className="icons-inside">
-                        <img src={searching} alt="" />
                         <img src={like} alt="" />
                         <img src={cart} alt="" />
 
                     </div>
-                </div>
+                
             </div>
             <div className="second">
                 <div className="second-inside">

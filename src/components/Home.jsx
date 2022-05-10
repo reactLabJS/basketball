@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.css'
 import { Article } from './Article/Article'
 import { Tittle } from './Main/Tittle'
 import { bigPicture, KobyProducts, lakerProducts, MichaelProducts } from '../Objects/products'
@@ -10,9 +11,12 @@ import { BlackBlock2 } from './Block3/BlackBlock2'
 import { BlockFour } from './Block4/BlockFour'
 import { BlackBlockThree } from './BlockFive/BlackBlockThree'
 import { Last } from './Last/Last'
+
 export const Home = () => {
+
+
   return (
-    <div>
+    <div className='home'>
         <Article/>
         
         <Tittle 
