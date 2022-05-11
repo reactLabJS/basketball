@@ -9,13 +9,13 @@ export const lakerProducts = [
     },
     {
         img:lakers,
-        name: 'LeBron James Lakers City Edition ',
+        name: 'Carmelo Antony ',
         desc: 'Nike NBA Swingman Jersey',
         price: 290,
     },
     {
         img:lakers,
-        name: 'LeBron James Lakers City Edition ',
+        name: 'Kent Bazemore ',
         desc: 'Nike NBA Swingman Jersey',
         price: 290,
     },
@@ -24,19 +24,19 @@ export const lakerProducts = [
 export const KobyProducts = [
     {
         img:lakers,
-        name: 'Kobe Bryant Laker Authentic Edition ',
+        name: 'Avery Bradley',
         desc: 'Nike NBA Authentic Jersey Purple',
         price: 240,
     },
     {
         img:lakers,
-        name: 'Kobe Bryant Laker Authentic Edition ',
+        name: 'Anthony  Davis ',
         desc: 'Nike NBA Authentic Jersey Purple',
         price: 370,
     },
     {
         img:lakers,
-        name: 'Kobe Bryant Laker Authentic Edition ',
+        name: 'Wayne Ellington',
         desc: 'Nike NBA Authentic Jersey Purple',
         price: 179,
     },
@@ -45,19 +45,19 @@ export const KobyProducts = [
 export const MichaelProducts = [
     {
         img:lakers,
-        name: 'Michael Jordan ‘92 Olympics USA',
+        name: 'Talen Horton-Tucker',
         desc: 'Nike NBA ‘92 Olympics Dream Team USA Classics Authentic Jersey',
         price: 240,
     },
     {
         img:lakers,
-        name: 'Michael Jordan ‘92 Olympics USA ',
+        name: 'Dwight Howard',
         desc: 'Nike NBA ‘92 Olympics Dream Team USA Classics Authentic Jersey',
         price: 370,
     },
     {
         img:lakers,
-        name: 'Michael Jordan ‘92 Olympics USA ',
+        name: 'Malik Monk',
         desc: 'Nike NBA ‘92 Olympics Dream Team USA Classics Authentic Jersey',
         price: 179,
     },

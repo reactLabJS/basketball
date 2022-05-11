@@ -13,7 +13,7 @@ import { BlackBlockThree } from './BlockFive/BlackBlockThree'
 import { Last } from './Last/Last'
 
 export const Home = () => {
-
+  
 
   return (
     <div className='home'>

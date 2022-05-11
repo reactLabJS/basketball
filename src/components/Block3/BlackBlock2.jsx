@@ -11,6 +11,7 @@ export const BlackBlock2 = ({
     products,
     logo,
 }) => {
+    
   return (
     <div className='title'>
         <div className="title_inside">
